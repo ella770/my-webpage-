@@ -142,22 +142,60 @@
       <li>(Keep the pressure light and even. Go slow and steady)</li>
     </ul>
   </section>
-  
-  <section id="resources">
-    <h2>Extra Resources</h2>
-      <iframe width="400" height="312"
-    src="https://www.youtube.com/embed/-YCGK33c0xs"
-    title="How to Center Clay - A Beginner's Guide"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
 
+<section id="resources">
+  <h2>Extra Resources</h2>
+
+  <!-- Flex container for videos -->
+  <div class="video-container">
+    <!-- First video -->
+    <iframe width="400" height="312"
+      src="https://www.youtube.com/embed/-YCGK33c0xs"
+      title="How to Center Clay - A Beginner's Guide"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+
+    <!-- Second video -->
+    <iframe width="400" height="312"
+      src="https://www.youtube.com/embed/VM8SJZ4lNRY"
+      title="Pottery Basics Video 2"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Extra links -->
   <ul>
     <li><a href="https://www.youtube.com/results?search_query=pottery+wheel+basics" target="_blank">YouTube Pottery Basics</a></li>
   </ul>
 </section>
+
+<!-- CSS for layout -->
+<style>
+  /* Flex container to align videos side by side */
+  .video-container {
+    display: flex;
+    flex-wrap: wrap; /* stack on small screens */
+    gap: 20px;       /* space between videos */
+    justify-content: center; /* center videos */
+    margin-bottom: 20px;
+  }
+
+  /* Make iframes responsive */
+  .video-container iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Optional: style links */
+  #resources ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+</style>
 
   <footer>
     <p>© 2025 Learn Pottery | Made by a Mariella Underwood <3 </p>
