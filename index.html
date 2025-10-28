@@ -1,261 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Learn Pottery – Moraga & Beyond</title>
+  <title>Learn Pottery - Moraga & Beyond</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    /* ---------- COLOR PALETTE ---------- */
-    :root {
-      --soft-pink: #f9c6d2;
-      --deep-brown: #5b3a29;
-      --light-brown: #d7b89c;
-      --white: #fff9f7;
-      --black: #1b1b1b;
-    }
-
-    /* ---------- GENERAL STYLES ---------- */
     body {
-      font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+      background-color: #fff5f7;
+      color: #2e2b2b;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: var(--white);
-      color: var(--black);
-      line-height: 1.6;
     }
 
     header {
-      background: var(--deep-brown);
-      color: var(--white);
+      background-color: #5b3a29;
+      color: white;
       text-align: center;
-      padding: 50px 20px;
-      border-bottom: 6px solid var(--soft-pink);
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-      letter-spacing: 1px;
+      padding: 20px;
     }
 
     nav {
-      margin-top: 10px;
+      background-color: #f9c6d2;
+      text-align: center;
+      padding: 10px;
     }
 
     nav a {
-      color: var(--soft-pink);
-      margin: 0 12px;
+      color: #2e2b2b;
       text-decoration: none;
+      padding: 8px;
       font-weight: bold;
-      transition: 0.2s;
     }
 
     nav a:hover {
-      color: var(--white);
-      text-shadow: 0 0 4px var(--soft-pink);
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    h1 {
+      margin-bottom: 5px;
     }
 
     main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 30px;
-      background: var(--white);
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
     }
 
     section {
-      margin-bottom: 50px;
+      background-color: white;
+      border: 2px solid #f9c6d2;
+      padding: 15px;
+      margin-bottom: 25px;
+      border-radius: 8px;
     }
 
-    section h2 {
-      color: var(--deep-brown);
-      border-bottom: 3px dotted var(--soft-pink);
-      padding-bottom: 5px;
-      font-size: 1.8em;
-      margin-bottom: 15px;
+    h2 {
+      color: #5b3a29;
+      border-bottom: 2px dashed #f9c6d2;
     }
 
     h3 {
-      color: var(--light-brown);
-      margin-top: 20px;
-    }
-
-    p {
-      margin-bottom: 10px;
-    }
-
-    ul {
-      list-style-type: "🍶 ";
-      margin-left: 25px;
+      color: #d7b89c;
     }
 
     .studio {
-      border-left: 6px solid var(--soft-pink);
-      background: #fffafc;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
-      transition: transform 0.2s;
-    }
-
-    .studio:hover {
-      transform: scale(1.02);
-    }
-
-    .studio h3 {
-      color: var(--deep-brown);
-      margin-top: 0;
-    }
-
-    a.resource {
-      color: var(--deep-brown);
-      font-weight: bold;
-      text-decoration: none;
-      border-bottom: 2px solid var(--soft-pink);
-      transition: 0.2s;
-    }
-
-    a.resource:hover {
-      color: var(--soft-pink);
-      border-color: var(--deep-brown);
+      background-color: #fff0f3;
+      border: 1px solid #f9c6d2;
+      padding: 10px;
+      margin: 10px 0;
     }
 
     iframe {
       width: 100%;
-      height: 450px;
-      border: none;
-      border-radius: 12px;
-      margin-top: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      height: 350px;
+      border: 2px solid #5b3a29;
     }
 
     footer {
-      background: var(--deep-brown);
-      color: var(--white);
+      background-color: #5b3a29;
+      color: white;
       text-align: center;
-      padding: 25px;
-      border-top: 6px solid var(--soft-pink);
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 20px;
     }
 
-    footer a {
-      color: var(--soft-pink);
-      text-decoration: none;
-      font-weight: bold;
+    ul {
+      list-style-type: circle;
     }
 
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* ---------- RESPONSIVE ---------- */
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8em;
-      }
-      main {
-        padding: 20px;
-      }
-      iframe {
-        height: 300px;
-      }
+    a {
+      color: #5b3a29;
     }
   </style>
 </head>
-<body>
 
+<body>
   <header>
-    <h1>Learn Pottery – Moraga & Beyond</h1>
-    <nav>
-      <a href="#howto">How to Make Pottery</a>
-      <a href="#studios">Studio Locations</a>
-      <a href="#resources">Resources</a>
-    </nav>
+    <h1>Learn Pottery - Moraga & Beyond</h1>
+    <p>by someone who really likes clay :)</p>
   </header>
 
-  <main>
+  <nav>
+    <a href="#howto">How To Make Pottery</a>
+    <a href="#studios">Studios</a>
+    <a href="#resources">Resources</a>
+  </nav>
 
+  <main>
     <section id="howto">
-      <h2>How to Make Pottery</h2>
-      <p>Pottery is the art of shaping clay into functional or decorative objects through hand-building or wheel-throwing, then glazing and firing them in a kiln. Here’s how to start your clay journey!</p>
+      <h2>How To Make Pottery</h2>
+      <p>Pottery is when you make cool things out of clay and then bake them in a kiln! Here are some things you need and how to do it.</p>
 
       <h3>Materials & Tools</h3>
       <ul>
-        <li>Clay (earthenware, stoneware, or porcelain)</li>
-        <li>Pottery wheel (for wheel-throwing)</li>
-        <li>Hand tools (ribs, wire cutter, trimming tools)</li>
+        <li>Clay (you can buy it at an art store)</li>
+        <li>Pottery wheel (optional)</li>
         <li>Glazes and brushes</li>
-        <li>A kiln for firing</li>
+        <li>A kiln (or use one at a studio)</li>
       </ul>
 
-      <h3>Techniques</h3>
+      <h3>Basic Steps</h3>
       <ul>
-        <li><strong>Hand-building:</strong> pinch, coil, and slab methods</li>
-        <li><strong>Wheel-throwing:</strong> centering clay, pulling walls, shaping forms</li>
+        <li>1. Shape your clay with your hands or a wheel.</li>
+        <li>2. Let it dry a bit.</li>
+        <li>3. Put it in the kiln (ask for help if you’re new!).</li>
+        <li>4. Paint it with glaze and fire it again.</li>
       </ul>
 
-      <h3>Glazing & Firing</h3>
-      <p>After your clay piece dries, it’s bisque-fired, glazed for color, and fired again for a glossy finish. Always follow studio safety rules and kiln instructions.</p>
-
-      <h3>Getting Started Checklist</h3>
-      <ul>
-        <li>Pick your clay type</li>
-        <li>Find a local pottery studio (see below!)</li>
-        <li>Take an intro class</li>
-      </ul>
+      <p>When you're done, you’ll have a cute pot, cup, or bowl you made yourself!</p>
     </section>
 
     <section id="studios">
-      <h2>Studio Locations Near Moraga, CA</h2>
-      <p>Here are a few cozy and creative pottery studios near Moraga to get your hands muddy!</p>
+      <h2>Studios Near Moraga, CA</h2>
+      <p>Here are some places you can go to make pottery near Moraga:</p>
 
       <div class="studio">
-        <h3>The Potters' Studio – Berkeley</h3>
-        <p><strong>Address:</strong> 724 Camelia St, Berkeley, CA 94710</p>
-        <p>A welcoming community space offering pottery classes and open studio hours.</p>
-        <p><a href="http://www.berkeleypottersstudio.org/" target="_blank" class="resource">Visit Website →</a></p>
+        <h3>The Potters' Studio - Berkeley</h3>
+        <p>724 Camelia St, Berkeley, CA</p>
+        <p><a href="http://www.berkeleypottersstudio.org/" target="_blank">Website</a></p>
       </div>
 
       <div class="studio">
-        <h3>Merritt Ceramics Studio – Oakland</h3>
-        <p><strong>Address:</strong> 1823 Park Blvd, Oakland, CA 94606</p>
-        <p>Modern ceramics studio with small-group classes and membership options.</p>
-        <p><a href="http://www.merrittceramics.com/" target="_blank" class="resource">Visit Website →</a></p>
+        <h3>Merritt Ceramics Studio - Oakland</h3>
+        <p>1823 Park Blvd, Oakland, CA</p>
+        <p><a href="http://www.merrittceramics.com/" target="_blank">Website</a></p>
       </div>
 
       <div class="studio">
-        <h3>Red Ox Clay Studio – Concord</h3>
-        <p><strong>Address:</strong> 1811 Broadway St, Concord, CA 94520</p>
-        <p>Friendly and creative community space offering classes and workshops for all skill levels.</p>
-        <p><a href="http://redoxclaystudio.com/" target="_blank" class="resource">Visit Website →</a></p>
+        <h3>Red Ox Clay Studio - Concord</h3>
+        <p>1811 Broadway St, Concord, CA</p>
+        <p><a href="http://redoxclaystudio.com/" target="_blank">Website</a></p>
       </div>
 
-      <h3>Map of Nearby Studios</h3>
-      <!-- Cute map section -->
-      <iframe
-        src="https://www.google.com/maps/d/embed?mid=1lHPxvB_Q5I4v5z6hXEkMxCclXyTpnv0&ehbc=2E312F"
-        allowfullscreen
-        loading="lazy">
-      </iframe>
-      <p style="font-size:0.9em; color:var(--black); text-align:center;">💖 Use the map above to find directions from Moraga to each studio!</p>
+      <h3>Map of Studios</h3>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1lHPxvB_Q5I4v5z6hXEkMxCclXyTpnv0&ehbc=2E312F" allowfullscreen loading="lazy"></iframe>
     </section>
 
     <section id="resources">
-      <h2>Resources & Further Learning</h2>
+      <h2>Extra Resources</h2>
       <ul>
-        <li><a href="https://www.ceramicartsnetwork.org/" target="_blank" class="resource">Ceramic Arts Network</a> – tutorials and artist interviews</li>
-        <li><a href="https://www.youtube.com/results?search_query=pottery+wheel+basics" target="_blank" class="resource">YouTube Pottery Basics</a> – beginner video guides</li>
-        <li><a href="https://wedge-begonia-eghj.squarespace.com/s/Ceramics-Student-Handbook-Fall-2024.pdf" target="_blank" class="resource">Ceramics Student Handbook (PDF)</a></li>
+        <li><a href="https://www.ceramicartsnetwork.org/" target="_blank">Ceramic Arts Network</a></li>
+        <li><a href="https://www.youtube.com/results?search_query=pottery+wheel+basics" target="_blank">YouTube Pottery Basics</a></li>
+        <li><a href="https://wedge-begonia-eghj.squarespace.com/s/Ceramics-Student-Handbook-Fall-2024.pdf" target="_blank">Ceramics Handbook (PDF)</a></li>
       </ul>
     </section>
-
   </main>
 
   <footer>
-    <p>© 2025 Learn Pottery – Made with 💕 by [Mariella Underwood]</p>
-    <p>Say hi: <a href="mailto:meu1@stmarys-ca.edu">meu1@stmarys-ca.edu</a></p>
+    <p>© 2025 Learn Pottery - Made with love and maybe some clay dust 🩷</p>
   </footer>
-
 </body>
 </html>
