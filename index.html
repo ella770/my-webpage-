@@ -1,204 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Learn Pottery - In Moraga </title>
+  <title>Mariella Underwood - Mary Kay Skincare</title>
   <style>
     body {
-      background-color: #fff7f8;
-      color: #2e2b2b;
       font-family: Arial, sans-serif;
+      background-color: #ffe6f2; /* soft pink */
+      margin: 0;
+      padding: 0;
+      color: #000;
     }
 
-    h1 {
+    header {
+      background-color: #ffb3d9; 
+      padding: 20px;
       text-align: center;
-      background-color: #5b3a29;
-      color: white;
-      padding: 15px;
-    }
-
-    h2 {
-      color: #5b3a29;
-      border-bottom: 2px solid #f9c6d2;
-    }
-
-    h3 {
-      color: #d7b89c;
-    }
-
-    nav {
-      text-align: center;
-      background-color: #f9c6d2;
-      padding: 8px;
-    }
-
-    nav a {
-      color: #2e2b2b;
-      text-decoration: none;
-      margin: 10px;
+      color: black;
+      font-size: 28px;
       font-weight: bold;
     }
 
-    nav a:hover {
-      color: #5b3a29;
-    }
-
-    section {
+    nav {
       background-color: white;
-      border: 2px solid #f9c6d2;
-      border-radius: 8px;
+      text-align: center;
       padding: 10px;
-      margin: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
     }
 
-    .studio {
-      background-color: #fff0f3;
-      border: 1px solid #f9c6d2;
-      padding: 8px;
-      margin: 10px 0;
+    nav a {
+      margin: 0 15px;
+      color: #ff4da6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .about-box, .product-box, .contact-box {
+      background-color: white;
+      border: 2px solid #ff4da6;
+      border-radius: 10px;
+      padding: 25px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
     }
 
     footer {
-      text-align: center;
-      background-color: #5b3a29;
+      background-color: black;
       color: white;
-      padding: 10px;
-      margin-top: 20px;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
     }
 
-    ul {
-      list-style-type: circle;
+    .button {
+      display: inline-block;
+      background-color: #ff4da6;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 15px;
     }
 
-    a {
-      color: #5b3a29;
+    .button:hover {
+      background-color: #e60073;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Learn Pottery - Moraga & Beyond</h1>
+  <header>
+    Mariella Underwood • Mary Kay Skincare
+  </header>
 
   <nav>
-    <a href="#howto">How To</a>
-    <a href="#studios">Studios</a>
-    <a href="#Wheel">Wheel</a>
-     <a href="#resources">Resources</a>
+    <a href="#about">About Me</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-  <section id="howto">
-    <h2>How To Make Pottery</h2>
-    <p>Pottery is when you shape clay into something like a bowl, cup, or vase and then fire it in a kiln. Here are some basics!</p>
-
-    <h3>What You Need</h3>
-    <ul>
-      <li>Clay (buy it at an art store)</li>
-      <li>Water and some tools</li>
-       <li>A Spinning Wheel</li>
-      <li>A kiln (or a studio that has one)</li>
-      <li>Glaze if you want to make it colorful</li>
-    </ul>
-
-    <h3>Basic Steps</h3>
-    <ul>
-      <li>1. Shape your clay with your hands or a wheel.</li>
-      <li>2. Let it dry a bit </li>
-      <li>3. Put it in the kiln to harden it.</li>
-      <li>4. Paint it with glaze and fire/put it in the kiln again.</li>
-    </ul>
+  <section id="about" class="section">
+    <div class="about-box">
+      <h2>Hi, I'm Mariella!</h2>
+      <p>
+        Welcome to my Mary Kay skincare page! I'm passionate about beauty, 
+        self-care, and helping people find products that make them feel confident 
+        and glowing. As a Mary Kay consultant, I help customers discover 
+        personalized skincare and makeup that fits their needs.
+      </p>
+      <p>
+        I started this business because I love connecting with people and helping 
+        them build a routine that makes them feel beautiful from the inside out.
+      </p>
+    </div>
   </section>
 
-  <section id="studios">
-    <h2>Studios Near Moraga, CA</h2>
-
-    <div class="studio">
-      <h3>The Potters' Studio - Berkeley</h3>
-      <p>724 Camelia St, Berkeley, CA</p>
-      <p><a href="http://www.berkeleypottersstudio.org/" target="_blank">Website</a></p>
+  <section id="products" class="section">
+    <div class="product-box">
+      <h2>My Favorite Products</h2>
+      <p>Here are some Mary Kay items I love sharing with customers:</p>
+      <ul style="text-align:left; max-width:400px; margin:auto;">
+        <li>💗 TimeWise® Skincare Set</li>
+        <li>💗 Oil-Free Eye Makeup Remover</li>
+        <li>💗 Hydrogel Eye Patches</li>
+        <li>💗 Satin Lips® Shea Sugar Scrub</li>
+        <li>💗 24-Hour Hydrating Gel</li>
+      </ul>
+      <a class="button" href="https://www.marykay.com" target="_blank">Shop Mary Kay</a>
     </div>
-
-    <div class="studio">
-      <h3>Merritt Ceramics Studio - Oakland</h3>
-      <p>1823 Park Blvd, Oakland, CA</p>
-      <p><a href="http://www.merrittceramics.com/" target="_blank">Website</a></p>
-    </div>
-
-    <div class="studio">
-      <h3>Red Ox Clay Studio - Concord</h3>
-      <p>1811 Broadway St, Concord, CA</p>
-      <p><a href="http://redoxclaystudio.com/" target="_blank">Website</a></p>
-    </div>
-  
-  
-  <section id="Wheel">
-      <h2>Wheel Creation Details</h2>
-    <ul>
-      <li>1. Make sure your hands are wet throught the whole prosses especially if clay starts to feel rough.</li>
-      <li>2. Center the clay and make sure your arms are locked so you can use your mucles to move the clay. </li>
-      <li>3. press down in the middle to open the clay, then flatten the bottom a little.</li>  
-      <li>4. put one hand inside the clay (to support it) and the other outside (to shape it). Your fingers should be right across from each other, like they’re gently pinching the clay.</li>
-      <li>5. while the wheel spins press your fingers gently together to pinch the clay a little.
-      <li>6. Slowly move your hands upward together, this makes the wall taller and thinner.</li>
-      <li>(Keep the pressure light and even. Go slow and steady)</li>
-    </ul>
   </section>
 
-<section id="resources">
-  <h2>Extra Resources</h2>
-
-  <!-- Flex container for videos -->
-  <div class="video-container">
-    <!-- First video -->
-    <iframe width="400" height="312"
-      src="https://www.youtube.com/embed/-YCGK33c0xs"
-      title="How to Center Clay - A Beginner's Guide"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
-
-    <!-- Second video -->
-    <iframe width="400" height="312"
-      src="https://www.youtube.com/embed/VM8SJZ4lNRY"
-      title="Pottery Basics Video 2"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
-  </div>
-
-  <!-- Extra links -->
-  <ul>
-    <li><a href="https://www.youtube.com/results?search_query=pottery+wheel+basics" target="_blank">YouTube Pottery Basics</a></li>
-  </ul>
-</section>
-
-<!-- CSS for layout -->
-<style>
-  /* Flex container to align videos side by side */
-  .video-container {
-    display: flex;
-    flex-wrap: wrap; /* stack on small screens */
-    gap: 20px;       /* space between videos */
-    justify-content: center; /* center videos */
-    margin-bottom: 20px;
-  }
-
-  /* Make iframes responsive */
-  .video-container iframe {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Optional: style links */
-  #resources ul {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-</style>
+  <section id="contact" class="section">
+    <div class="contact-box">
+      <h2>Contact Me</h2>
+      <p>If you want skincare advice, product recommendations, or to place an order, reach out anytime!</p>
+      <p><strong>Email:</strong> mariella.underwood@gmail.com</p>
+      <p><strong>Instagram:</strong> @mk.by.ella</p>
+      <p><strong>Phone:</strong> (650) 441-8784 </p>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 Learn Pottery | Made by a Mariella Underwood <3 </p>
+    © 2025 Mariella Underwood • Mary Kay Skincare
   </footer>
 
 </body>
